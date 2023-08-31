@@ -1,7 +1,7 @@
 const { spawn } = require('child_process');
 
 function runScript() {
-  const script = spawn('node', ['server.js']);
+  const script = spawn('node', ['bot.js']);
 
   script.stdout.on('data', (data) => {
     console.log(`stdout: ${data}`);

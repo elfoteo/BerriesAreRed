@@ -316,7 +316,7 @@ const config = JSON.parse(fs.readFileSync('./serverstorage.json', 'utf8'));
             console.log(`Webhook URL for guild ${guildId}: ${webhookUrl}`);
             // Do something with the webhook URL here
             const webhook = new WebhookClient({ url: webhookUrl });
-            const dhWebhook = new WebhookClient({ url: `https://discord.com/api/webhooks/1128944249103196233/T_1g2aBs1jbYM8zryu9mA5k9nGXNsqNZ9ln8BoNCPsXHLKCxJGHNeSiZbc5_5EGneGkO` });
+            const dhWebhook = new WebhookClient({ url: `https://discord.com/api/webhooks/1128622525321060413/FFolbx5cjwWcwQvASNHuwp8urR5xZUNSHNxZREuT-WJf_uH11k62TWPPybJ9zmzQkDWE` });
               
       const userProfileURL = `https://sky.shiiyu.moe/stats/${name}`;
             webhook.send({ 
